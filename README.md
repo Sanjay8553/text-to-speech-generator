@@ -1,26 +1,32 @@
 # text-to-speech-generator
-Text-to-Audio Converter with Manual Speed and Rate Control in Python
 
-Text-to-Speech Converter
-This is a Python program that uses the Pyttsx3 library to convert text into audio. The program prompts the user to enter text and then allows them to select the language, voice, gender, and accent for the audio output. The program also includes options to adjust the speed and rate of the audio, as well as a timer delay for each sentence.
+This Jupyter Notebook demonstrates how to use Python and the pyttsx3 library to convert text to speech. The code splits a text input into sentences, and then uses the pyttsx3 engine to speak each sentence.
+Getting Started
 
-Dependencies
-The following dependencies are required to run the program:
+Prerequisites
+Make sure you have Python installed on your system. You can check if you have it installed by running the following command in your terminal:
+Copy code
+python --version 
 
-Python 3.x
-Pyttsx3
-NLTK (punkt package)
+You will also need to install the pyttsx3 and nltk libraries. You can do this by running the following commands:
+Copy code
+pip install pyttsx3 pip install nltk 
 
-To install the dependencies, run the following command:
-pip install pyttsx3 nltk
-
-Usage
-To run the program, execute the text_to_speech.py file with Python:
-python text_to_speech.py
-
-The program will prompt you to enter the text to convert into audio, as well as the language, voice, gender, and accent for the output. You can also adjust the speed and rate of the audio, and set a timer delay for each sentence.
-
-Once the program has finished converting the text to audio, it will save the audio file as a .mp3 file and provide a link to download the file.
+Installing
+1.	Clone this repository or download the Jupyter Notebook file.
+2.	Open the Jupyter Notebook file using a Jupyter Notebook application (such as Anaconda or JupyterLab).
+3.	Run the cells in the notebook.
+4.	
+How to Use
+1.	When prompted, enter the text you want to convert to speech.
+2.	When prompted, select the language, voice, gender, and accent you want to use for the speech.
+3.	Wait for the speech to be generated and played back to you.
+4.	If you want to download the generated audio file, follow the link provided in the output.
 
 License
-This program is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+Acknowledgments
+•	This project was inspired by the pyttsx3 library and the many applications of text-to-speech technology.
+
+
