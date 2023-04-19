@@ -16,7 +16,7 @@ Installing
 1.	Clone this repository or download the Jupyter Notebook file.
 2.	Open the Jupyter Notebook file using a Jupyter Notebook application (such as Anaconda or JupyterLab).
 3.	Run the cells in the notebook.
-4.	
+
 How to Use
 1.	When prompted, enter the text you want to convert to speech.
 2.	When prompted, select the language, voice, gender, and accent you want to use for the speech.
