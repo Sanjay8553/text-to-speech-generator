@@ -5,7 +5,9 @@ Getting Started
 
 Prerequisites
 Make sure you have Python installed on your system. You can check if you have it installed by running the following command in your terminal:
+
 Copy code
+
 python --version 
 
 You will also need to install the pyttsx3 and nltk libraries. You can do this by running the following commands:
